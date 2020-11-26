@@ -1,5 +1,6 @@
 def nil_array(number)
   # return an array containing the number of nil values
+  Array.new(number)
 end
 
 def nested_array(number)
