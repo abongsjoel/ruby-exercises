@@ -16,11 +16,11 @@ RSpec.describe 'Array Exercises' do
 
   describe 'nested array exercise' do
     
-    xit 'returns a nested array with 4 empty arrays' do
+    it 'returns a nested array with 4 empty arrays' do
       expect(nested_array(4)).to eq([[], [], [], []])
     end
     
-    xit 'returns a nested array with 3 empty arrays' do
+    it 'returns a nested array with 3 empty arrays' do
       expect(nested_array(3)).to eq([[], [], []])
     end
   end

@@ -5,6 +5,7 @@ end
 
 def nested_array(number)
   # return an array containing the number of empty arrays
+  Array.new(number, Array.new)
 end
 
 def first_index(array)
