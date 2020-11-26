@@ -29,6 +29,7 @@ end
 
 def add_element(array)
   # add an element (of any value) to the array
+  array << "Joel"
 end
 
 def remove_last_element(array)

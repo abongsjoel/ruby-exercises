@@ -60,12 +60,12 @@ RSpec.describe 'Array Exercises' do
 
   describe 'add element exercise' do
 
-    xit 'increases the length of an array by 1' do
+    it 'increases the length of an array by 1' do
       numbers = [1, 2, 3, 4]
       expect { add_element(numbers) }.to change { numbers.length }.by(1)
     end
 
-    xit 'increases the length of an empty array by 1' do
+    it 'increases the length of an empty array by 1' do
       data = []
       expect { add_element(data) }.to change { data.length }.by(1)
     end
