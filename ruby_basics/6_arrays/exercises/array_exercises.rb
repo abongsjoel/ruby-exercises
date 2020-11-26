@@ -15,6 +15,11 @@ end
 
 def last_three_elements(array)
   # return the last 3 elements of the array
+  if array.size >= 3   
+    array[-3..-1]
+  else
+    array
+  end
 end
 
 def second_index(array)

@@ -38,11 +38,11 @@ RSpec.describe 'Array Exercises' do
 
   describe 'last three elements exercise' do
 
-    xit 'returns an array of the last three elements' do
+    it 'returns an array of the last three elements' do
       expect(last_three_elements([2, 4, 6, 8, 10])).to eq([6, 8, 10])
     end
 
-    xit 'returns all of the elements when there are less than 3 elements' do
+    it 'returns all of the elements when there are less than 3 elements' do
       expect(last_three_elements(['foo', 'bar'])).to eq(['foo', 'bar'])
     end
   end
