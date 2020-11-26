@@ -49,11 +49,11 @@ RSpec.describe 'Array Exercises' do
 
   describe 'second index exercise' do
 
-    xit 'returns the second index of an array' do
+    it 'returns the second index of an array' do
       expect(second_index([2, 4, 6, 8, 10])).to eq(6)
     end
 
-    xit 'returns nil if the array does not have a second index' do
+    it 'returns nil if the array does not have a second index' do
       expect(second_index(['foo', 'bar'])).to eq(nil)
     end
   end
