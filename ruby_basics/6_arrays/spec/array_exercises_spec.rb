@@ -27,11 +27,11 @@ RSpec.describe 'Array Exercises' do
 
   describe 'first index exercise' do
 
-    xit 'returns the first index of an array of numbers' do
+    it 'returns the first index of an array of numbers' do
       expect(first_index([2, 4, 6, 8, 10])).to eq(2)
     end
 
-    xit 'returns the first index of an array of strings' do
+    it 'returns the first index of an array of strings' do
       expect(first_index(['foo', 'bar'])).to eq('foo')
     end
   end

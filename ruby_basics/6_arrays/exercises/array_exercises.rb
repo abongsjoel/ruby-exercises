@@ -10,6 +10,7 @@ end
 
 def first_index(array)
   # return the first index of the array
+  array.first
 end
 
 def last_three_elements(array)
