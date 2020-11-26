@@ -68,6 +68,7 @@ end
 
 def array_length(array)
   # return the length of the array
+  array.size
 end
 
 def include?(array, value)
