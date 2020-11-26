@@ -150,11 +150,11 @@ RSpec.describe 'Array Exercises' do
 
   describe 'include exercise' do
 
-    xit 'returns true when the array contains the specified value' do
+    it 'returns true when the array contains the specified value' do
       expect(include?([0, 1, 1, 2, 3, 5], 3)).to be true
     end
 
-    xit 'returns false when the array does not contain the specified value' do
+    it 'returns false when the array does not contain the specified value' do
       expect(include?([0, 1, 1, 2, 3, 5], 8)).to be false
     end
   end
