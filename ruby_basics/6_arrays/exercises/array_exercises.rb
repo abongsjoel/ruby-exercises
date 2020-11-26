@@ -63,6 +63,7 @@ end
 
 def reverse(array)
   # return the reverse of the array
+  array.reverse
 end
 
 def array_length(array)
