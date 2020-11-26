@@ -73,11 +73,11 @@ RSpec.describe 'Array Exercises' do
 
   describe 'remove last element exercise' do
 
-    xit 'returns the array without the last element' do
+    it 'returns the array without the last element' do
       expect(remove_last_element([1, 3, 5])).to eq([1, 3])
     end
 
-    xit 'returns an empty array when the array only has one element' do
+    it 'returns an empty array when the array only has one element' do
       expect(remove_last_element(['foo'])).to eq([])
     end
   end
