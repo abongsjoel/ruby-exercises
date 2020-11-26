@@ -24,7 +24,7 @@ end
 
 def second_index(array)
   # return the second index of the array
-  array[1]
+  array[2]
 end
 
 def add_element(array)
